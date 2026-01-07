@@ -1,5 +1,7 @@
 #home {
   width: 70%;
+  height: calc(85vh - 5rem);
+  padding-top: 6rem;
 }
 
 h1{
@@ -35,7 +37,7 @@ hr {
   color: var(--dark-brown);
   background-color: var(--off-white);
   font-family: var(--font-family);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4rem;
 
   transition: .2s;

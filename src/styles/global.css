@@ -12,8 +12,12 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, h2 {
   font-family: var(--font-header);
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 a {
@@ -22,7 +26,7 @@ a {
 }
 
 section {
-  padding: 8em;
+  margin: 4rem 8rem;
 }
 
 footer {
