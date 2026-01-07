@@ -2,12 +2,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 
   color: var(--off-white);
   background-color: var(--dark-brown);
 }
 
-#footer img {
+#footer svg {
+  width: 3rem;
   height: 3rem;
+  
+  path {
+    fill: var(--off-white);
+    transition: .1s;
+  }
+  
+  &:hover path {
+    fill: var(--off-white-secondary);
+  }
 }
