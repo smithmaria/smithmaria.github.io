@@ -1,0 +1,26 @@
+:root {
+  font-family: var(--font-family);
+  color: var(--dark-brown);
+  background-color: var(--off-white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: var(--dark-brown);
+  text-decoration: none;
+}
+
+section {
+  padding: 8em;
+}
+
+footer {
+  padding: 3em 8em;
+}

@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  color: var(--off-white);
+  background-color: var(--dark-brown);
+}
+
+.footer img {
+  height: 3rem;
+}
