@@ -4,7 +4,7 @@ import '../../styles/components/footer.css'
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer">
       <a href='https://github.com/smithmaria' target='_blank'>
         <img href="" src={githubIcon} alt='GitHub icon' />
       </a>

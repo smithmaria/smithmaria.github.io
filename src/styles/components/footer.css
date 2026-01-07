@@ -1,4 +1,4 @@
-.footer {
+#footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +8,6 @@
   background-color: var(--dark-brown);
 }
 
-.footer img {
+#footer img {
   height: 3rem;
 }

@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: var(--font-header);
+}
+
 a {
   color: var(--dark-brown);
   text-decoration: none;
