@@ -1,6 +1,4 @@
-// import githubIcon from '../../assets/icons/github-icon.svg'
-// import linkedInIcon from '../../assets/icons/linkedin-icon.svg'
-import '../../styles/components/footer.css'
+import './footer.css'
 
 export const Footer = () => {
   return (
