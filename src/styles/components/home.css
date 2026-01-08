@@ -1,7 +1,14 @@
 #home {
+  display: flex;
+  align-items: center;
+
+  margin-top: 0;
   width: 70%;
-  height: calc(85vh - 5rem);
-  padding-top: 6rem;
+  height: 100vh;
+}
+
+.home-container {
+  width: 100%;
 }
 
 h1{
