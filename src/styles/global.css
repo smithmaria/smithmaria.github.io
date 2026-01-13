@@ -4,6 +4,10 @@
   background-color: var(--off-white);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
