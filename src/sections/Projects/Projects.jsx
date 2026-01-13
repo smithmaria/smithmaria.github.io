@@ -20,6 +20,7 @@ export const Projects = () => {
           description='Traditional mutli-page, static site developed with pure HTML and CSS.'
           liveLink='https://homepages.uc.edu/~smit9mt/CarmellowCrochet/index.html'
           img={carmellowCrochetImg}
+          hasSourceLink={false}
         />
       </div>
     </section>
