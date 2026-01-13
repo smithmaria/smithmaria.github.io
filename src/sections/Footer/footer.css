@@ -1,14 +1,19 @@
 #footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 4rem;
-
   color: var(--off-white);
   background-color: var(--dark-brown);
 }
 
-#footer svg {
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.footer-icons svg {
   width: 3rem;
   height: 3rem;
   
@@ -19,5 +24,18 @@
   
   &:hover path {
     fill: var(--off-white-secondary);
+  }
+}
+
+.footer-source {
+  margin-top: 1.5rem;
+  color: var(--off-white);
+  opacity: .9;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  transition: .2s;
+
+  &:hover {
+    color: var(--off-white-secondary);
   }
 }
