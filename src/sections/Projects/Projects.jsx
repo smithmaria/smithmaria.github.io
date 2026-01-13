@@ -1,4 +1,4 @@
-import { ProjectCard } from "../../components/ProjectCard/ProjectCard"
+import { ProjectCard } from './ProjectCard'
 import pixelPatchImg from '../../assets/ProjectThumbnails/pixel-patch-tbnl.png'
 import carmellowCrochetImg from '../../assets/ProjectThumbnails/carmellow-crochet-tbnl.png'
 import './Projects.css'
