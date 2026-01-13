@@ -1,3 +1,4 @@
+import flowers from '../../assets/flowers.png'
 import './home.css'
 
 export const Home = () => {
@@ -13,8 +14,9 @@ export const Home = () => {
             <p>IT - Data Technologies</p>
           </div>
         </div>
-        <button className='resume-button'>Resume</button>
+        {/* <button className='resume-button'>Resume</button> */}
       </div>
+      <img className='flowers' src={flowers} alt='flowers' /> 
     </section>
   )
 }

@@ -4,7 +4,6 @@
 
   margin-top: 0;
   margin-bottom: 0;
-  width: 70%;
   height: 100vh;
 }
 
@@ -54,4 +53,8 @@ hr {
     background-color: var(--off-white-secondary);
     cursor: pointer;
   }
+}
+
+.flowers {
+  height: 33rem;
 }
