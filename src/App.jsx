@@ -1,6 +1,6 @@
 import Navigation from './components/Navigation/Navigation'
 import { Home } from './sections/Home/Home'
-import { Skills } from './sections/Skills/Skills'
+import { Languages } from './sections/Skills/Languages'
 import { Projects } from './sections/Projects/Projects'
 import { Footer } from './sections/Footer/Footer'
 import './styles/global.css'
@@ -10,7 +10,7 @@ function App() {
     <>
       <Navigation />
       <Home />
-      <Skills />
+      <Languages />
       <Projects />
       <Footer />
     </>
