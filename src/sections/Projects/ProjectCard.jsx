@@ -1,4 +1,4 @@
-export const ProjectCard = ({ name, description, liveLink, hasSourceLink = true, sourceLink, img }) => {
+export const ProjectCard = ({ name, description, liveLink, sourceLink, img }) => {
   return (
     <div className="project-card">
       <div className='project-content'>
@@ -6,9 +6,11 @@ export const ProjectCard = ({ name, description, liveLink, hasSourceLink = true,
         <h3>{name}</h3>
         <div className='project-description'>{description}</div>
       </div>
-      <div className='project-links'>        
-        <a href={liveLink} target='_blank'>LIVE DEMO</a>
-        {hasSourceLink && (
+      <div className='project-links'>
+        {liveLink &&
+          <a href={liveLink} target='_blank'>LIVE DEMO</a>
+        }
+        {sourceLink && (
           <a href={sourceLink} target='_blank'>VIEW SOURCE</a>
         )}
       </div>
