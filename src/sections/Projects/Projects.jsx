@@ -1,4 +1,5 @@
 import { ProjectCard } from './ProjectCard'
+import lollaPicksImg from '../../assets/ProjectThumbnails/lolla-picks-tbnl.png'
 import pixelPatchImg from '../../assets/ProjectThumbnails/pixel-patch-tbnl.png'
 import carmellowCrochetImg from '../../assets/ProjectThumbnails/carmellow-crochet-tbnl.png'
 import hot100Img from '../../assets/ProjectThumbnails/hot-100-tbnl.png'
@@ -9,7 +10,14 @@ export const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
       <div className="card-container">
-        <ProjectCard 
+        <ProjectCard
+          name='Lolla Picks'
+          description='Real-time collaborative festival-voting app built with React, TypeScript, and Vite, styled with Tailwind CSS, backed by Supabase, and tested with Vitest, React Testing and Playwright.'
+          liveLink='https://lolla-picks.vercel.app/'
+          sourceLink='https://github.com/smithmaria/lolla-picks'
+          img={lollaPicksImg}
+        />
+        <ProjectCard
           name='The Pixel Patch'
           description='An interactive gaming collection built with React featuring multiplayer implementations and external API integrations.'
           liveLink='https://the-pixel-patch.vercel.app/'
