@@ -24,3 +24,22 @@
     filter: brightness(2);
   }
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    gap: 4rem;
+    padding: 1rem 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    gap: 2rem;
+    padding: .8rem 2rem;
+    max-width: calc(100% - 2rem);
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+}

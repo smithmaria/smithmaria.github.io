@@ -58,3 +58,42 @@ hr {
 .flowers {
   height: 33rem;
 }
+
+@media (max-width: 900px) {
+  #home {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+
+    height: auto;
+    min-height: 100vh;
+    padding: 6rem 0;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .home-description {
+    font-size: 1.2rem;
+  }
+
+  .flowers {
+    height: 22rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .home-description {
+    font-size: 1.05rem;
+  }
+
+  .flowers {
+    height: 16rem;
+  }
+}
