@@ -26,7 +26,7 @@ export const Projects = () => {
         />
         <ProjectCard
           name='Billboard Hot 100 Analysis'
-          description='Python data analysis with NumPy and Pandas, and Matplotlib, Seaborn, and Plotly for visualizations.'
+          description='Exploratory analysis of 327K+ Billboard Hot 100 chart entries (1958–2021), uncovering how the streaming era reshaped music trends. Built in Python with pandas, NumPy, and Matplotlib/Seaborn/Plotly.'
           sourceLink='https://github.com/smithmaria/BillboardHot100_DataAnalysis'
           img={hot100Img}
         />
