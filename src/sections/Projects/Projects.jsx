@@ -1,5 +1,6 @@
 import { ProjectCard } from './ProjectCard'
 import lollaPicksImg from '../../assets/ProjectThumbnails/lolla-picks-tbnl.png'
+import customerSegmentationImg from '../../assets/ProjectThumbnails/customer-segmentation-tbnl.png'
 import pixelPatchImg from '../../assets/ProjectThumbnails/pixel-patch-tbnl.png'
 import carmellowCrochetImg from '../../assets/ProjectThumbnails/carmellow-crochet-tbnl.png'
 import hot100Img from '../../assets/ProjectThumbnails/hot-100-tbnl.png'
@@ -11,6 +12,12 @@ export const Projects = () => {
       <h2>Projects</h2>
       <div className="card-container">
         <ProjectCard
+          name='Billboard Hot 100 Analysis'
+          description='Exploratory analysis of 327K+ Billboard Hot 100 chart entries (1958–2021), uncovering how the streaming era reshaped music trends. Built in Python with pandas, NumPy, and Matplotlib/Seaborn/Plotly.'
+          sourceLink='https://github.com/smithmaria/BillboardHot100_DataAnalysis'
+          img={hot100Img}
+        />
+        <ProjectCard
           name='Lolla Picks'
           description='Real-time collaborative festival-voting app built with React, TypeScript, and Vite, styled with Tailwind CSS, backed by Supabase, and tested with Vitest, React Testing and Playwright.'
           liveLink='https://lolla-picks.vercel.app/'
@@ -18,17 +25,17 @@ export const Projects = () => {
           img={lollaPicksImg}
         />
         <ProjectCard
+          name='Retail Data Customer Segmentation'
+          description='Customer segmentation and sales trend analysis on 2 years of UK retail transactions with Python (RFM + K-Means clustering) and an interactive Power BI dashboard.'
+          sourceLink='https://github.com/smithmaria/online-retail-customer-segmentation'
+          img={customerSegmentationImg}
+        />
+        <ProjectCard
           name='The Pixel Patch'
           description='An interactive gaming collection built with React featuring multiplayer implementations and external API integrations.'
           liveLink='https://the-pixel-patch.vercel.app/'
           sourceLink='https://github.com/smithmaria/the-pixel-patch'
           img={pixelPatchImg}
-        />
-        <ProjectCard
-          name='Billboard Hot 100 Analysis'
-          description='Exploratory analysis of 327K+ Billboard Hot 100 chart entries (1958–2021), uncovering how the streaming era reshaped music trends. Built in Python with pandas, NumPy, and Matplotlib/Seaborn/Plotly.'
-          sourceLink='https://github.com/smithmaria/BillboardHot100_DataAnalysis'
-          img={hot100Img}
         />
         <ProjectCard 
           name='Carmellow Crochet'
